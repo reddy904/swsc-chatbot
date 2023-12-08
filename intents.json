@@ -1,0 +1,1338 @@
+{
+  "intents": [  
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hey there!",
+        "goodmorning",
+        "goodafternoon",
+        "goodevening",
+        "greeting"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, Welcome",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","C ya"],
+      "responses": [
+        "See you later, thanks for your query",
+        "Tata!Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure","Hope we help you to get proper info"]
+    },
+    {
+      "tag": "about user",
+      "patterns": [
+        "Do you know me?",
+        "What's my name?",
+        "What's my phoneno.",
+        "my address",
+        "my classroom",
+        "my section",
+        "my location"
+      ],
+      "responses": [
+        "Sorry i cannot recognize you till now..."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where it is located?",   
+        "Where it is situated?",
+        "Where it lies?",
+        "place",
+        "how can i reach there?" ,    
+        "Where are you from?",
+        "Where is the college ?",
+        "Is it in basundhara?",
+        "direction of college please!",
+        "Location of college please!"
+      ],
+      "responses": [
+        "It is located at basundhara, Kathmandu, Nepal",
+        "It is situated at basundhara, Kathmandu"
+      ]
+    },
+    {
+      "tag": "introduce",
+      "patterns": [
+        "Can you tell me about southwestern?",
+        "structure of southerstern",
+        "about southerstern",
+        "Please provide me some information about college",
+        "can i get more info about college?",
+        "Introduction please"
+      ],
+      "responses": [
+        " Southwestern College is located in basundhara, Kathmandu. . The college is well equipped with excellent furnished rooms and extraordinary facilities. In addition to that, it also takes pride in its successful students spread in various fields of the world. It has been able to establish its name in the market as a producer of outstanding talented individuals."
+      ]
+    },
+    {
+      "tag": "southwestern",
+    
+      "patterns": [
+        "Can you tell me about southwestern?",
+        "structure of southwestern",
+        "about southwestern",
+        "Please provide me some information about college",
+        "can i get more info about college?",
+        "Introduction please"
+      ],
+      "responses": [
+        "It is the first IT enabled college. The college is well equipped with excellent furnished rooms and extraordinary facilities. In addition to that, it also takes pride in its successful students spread in various fields of the world. It has been able to establish its name in the market as a producer of outstanding talented individuals."
+      ]
+    },
+    {
+      "tag": "establish",
+      "patterns": [
+        "When it was established?",
+        "when southwestern begin",
+        "when was this institude establish?",
+        "When it was started?"
+      ],
+      "responses": [
+        "It was established in 2008 AD",
+        "It was founded in 2008 AD"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "Is there any facilities?",
+        "Tell me something about college facilities",
+        "what type of facilities does college offer?",
+        "is there enough computer labs?",
+        "facility",
+        "is there enough facilities?"
+      ],
+      "responses": [
+        "Well - equipped and enough space classes and computer labs, library with sufficient number of course book and reference books, multipurpose halls, sports, cafeteria ",
+        "Multipurpose halls, sports, canteen, and transportation are all available, as well well-equipped library with a sufficient quantity of course books and reference books"
+      ]
+    },
+    {
+      "tag": "mbs",
+      "patterns": [
+        "  what is MBS",
+        "tell me about mbs? ",
+         "mbs course?",
+        "MBS?"
+  
+      ],
+      "responses": [
+        "Master in Business Studies [MBS] is a postgraduate business study degree of 2 years which is divided into 4 semesters of study, 2 semesters each year. The Master of Business Studies degree program combines the study of advanced theory with research."
+      ]
+    },
+    {
+      "tag": "bbm",
+      "patterns": [
+        "  BBM",
+        "what about bbm?",
+        "What is bbm ?",
+        "BBM vanya k ho?"
+  
+      ],
+      "responses": [
+        "Bachelor of Business Management or BBM is a three-year undergraduate management programme that facilitates specialization in different areas of study. This programme aims to help students acquaint themselves with managerial and decision-making skills. BBM programme can be pursued by the candidates after completion of class 12 in any stream."
+      ]
+    },
+    {
+      "tag": "bca",
+      "patterns": [
+        "  BCA",
+        "what is bca? ",
+        "What about BCA??",
+        "bca vanya k ho?"
+  
+      ],
+      "responses": [
+        "The term BCA stands for Bachelor of Computer Applications. A three-year undergraduate degree in technology and computer applications is known as a Bachelor of Computer Applications (BCA)"
+      ]
+    },
+    {
+      "tag": "bim",
+      "patterns": [
+        "  BIM course?",
+        "what types of bim course is?",
+        "What is bim?",
+        "BIM vanya k ho??"
+  
+      ],
+      "responses": [
+        "The Bachelor of Information Management (BIM) program is a four-year (eight-semester) program of Tribhuvan University offering integrated IT and Management Courses.",
+        "Bachelor of Information Management (BIM) is a four years degree launched by Tribhuvan University under Faculty of Management. BIM course is a blend of IT and Management."
+      ]
+    },
+    {
+      "tag": "bbs",
+      "patterns": [
+        "  bbs",
+        "about bbs?",
+        "What about BBS course ?",
+        "BBS"
+  
+      ],
+      "responses": [
+        "Bachelor of Business studies (BBS) is the four year degree program conducted by Tribhuvan University (TU), faculty of Management (FOM). It is an annual exam based program. The main objective of BBS is to develop students into dynamic managers having ability to handle responsibility in every sector."
+      ]
+    },
+    {
+      "tag": "csit",
+      "patterns": [
+        "  CSIT ",
+        "what is Csit? ",
+        "What about csit?",
+        "csit?"
+  
+      ],
+      "responses": [
+        "Bachelors of Science in Computer Science and Information Technology (B.Sc. CSIT) is a four year course affiliated to Tribhuvan University designed to provide the students with all sorts of knowledge in the field of Information Technology and Computing."
+      ]
+    },
+      {
+        "tag": "bba",
+        "patterns": [
+          "  WHAT is bba",
+          "about BBA? ",
+          "BBA vanya k ho?",
+        "bba?"
+    
+        ],
+        "responses": [
+          "Bachelor of Business Administration (BBA) is a bachelor's degree in business administration awarded by colleges and universities after completion of undergraduate study in the fundamentals of business administration and usually including advanced courses in accounting, economics, finance, management, marketing, strategic management, supply chain management, and other key academic subjects associated with the academic discipline of business management."
+        ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "Can you show me fee structure?",
+        "What is fee structure?",
+        "structure of fee",
+        "how much should i pay overall all/4 years?",
+        "what is final amount?"
+      ],
+      "responses": [
+        "According to 2079 B.S->CSIT:Rs.9,50,000,     BIM:Rs.5,65,000,     BCA:Rs.6,60,000,    BBS:Rs.2,00,000,    BBM:Rs.4,50,000  and BBA:Rs.7,50,000"
+      ]
+    },
+    {
+      "tag": "csit fee",
+      "patterns": [
+        "csit  fee",
+        "fee structure of csit ",
+        "What is fee structure of csit ?",
+        "what is amount for studying csit  in southwestern?"
+      ],
+      "responses": [
+        "Rs.9,50,000 according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.9,50,000"
+      ]
+    },
+    {
+      "tag": "bim fee",
+      "patterns": [
+        "bim fee",
+        "fee structure of bim ",
+        "What is fee structure of bim ?",
+        "what is amount for studying bim in southwestern?"
+  
+      ],
+      "responses": [
+        "Rs.5,65,000 according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.5,65,000"
+      ]
+    },
+    {
+      "tag": "bca fee",
+      "patterns": [
+        "bca department fee",
+        "fee structure of bca",
+        "What is fee structure of bca ?",
+        "what is amount for studying bca  in southwestern?"
+      ],
+      "responses": [
+        "Rs.Rs.6,60,000 according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.6,60,000"
+      ]
+    },
+    {
+      "tag": "bbs fee",
+      "patterns": [
+        "bbs   fee",
+        "fee structure of bbs  ",
+        "What is fee structure of bbs  ?",
+        "what is amount for studying bbs in southwestern?"
+  
+      ],
+      "responses": [
+        "Rs.2,00,000 according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.2,00,000"
+      ]
+    },
+    {
+      "tag": "bbm fee",
+      "patterns": [
+        "  bbm  fee",
+        "fee structure of   bbm ",
+        "What is fee structure of  bbm ?",
+        "what is amount for studying bbm  in southwestern?"
+  
+      ],
+      "responses": [
+        "Rs.4,50,000  according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.4,50,000"
+      ]
+    },
+    {
+      "tag": "bim fee",
+      "patterns": [
+        " bim  fee ",
+        "fee structure of bim    ",
+        "What is fee structure of  bim  ?",
+        "what is amount for studying bim  in southwestern?"
+  
+      ],
+      "responses": [
+        "Rs.2,9,750 according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.2,9,750"
+      ]
+    },
+       {
+      "tag": "bba fee",
+      "patterns": [
+        "  bba  fee",
+        "fee structure of   bba ",
+        "What is fee structure of  bba ?",
+        "what is amount for studying bba  in southwestern?",
+        "helloworld"
+  
+      ],
+      "responses": [
+        "Rs.Rs.7,50,000  according to 2079 B.S",
+        "According to 2079 B.S, it is Rs.7,50,000"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How do i contact with college?",
+        "what is number for college?",
+        "contact number please",
+        "contact ",
+        "phone no.",
+        "Can you please provide me phone number?",
+        "Can you please provide me contact number?"
+      ],
+      "responses": [
+        "You can contact through these number:Ph-01:  01-4961690 Ph-02: 01- 4390072"
+      ]
+    },
+    {
+      "tag": "objectives",
+      "patterns": [
+        "What is objective of this college?",
+        "Why this college is established?",
+        "What is motive behind establishment of this college?"
+      ],
+      "responses": [
+        "southwestern goes by the motto of “Initiate - Explore - Innovate” and focuses on developing the students and helping them find and pursue a career path they enjoy."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "How many courses are there in southwestern College?",
+        "Can i get info about courses?",
+        "how many courses are there?",
+        "What type of courses are available there?",
+        "What are programs offered by college?"
+      ],
+      "responses": [
+        "There are 7 courses/Programs:1.Bachelor of Business Management (BBM) 2.Bachelor of Business Studies(BBS) 3.Bachelor of Business Administration(BBA), 4.Bachelor of Information Management(BIM), 5. B.Sc. Computer Science and Information technology(BSc.CSIT), 6.Bachelor of Computer Application(BCA), 6. Master of Business Studies(MBS)"
+        ]
+    },
+    {
+      "tag": "purpose",
+      "patterns": [
+        "What can you do?",
+        "Who are you?",
+        "What are you here for?",
+        "Are you bot?",
+        "What is your name?",
+        "Is your name chatbot?"
+      ],
+      "responses": [
+        "I am southwestern College Chatbot"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "what about hostel?",
+        "Can you tell me about hostel facilities?",
+        "Is there any hostel facility in college?"
+      ],
+      "responses": [
+        "No, there is no such  facility. But there are several private hostels nearby.",
+        "For now there is no hostels in southwestern college,but you can find others private hostels near college"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What about library?",
+        "Can you tell me about library?",
+        "Is there any library facitlity in college?",
+        "where can i get some books?",
+        "can i borrow books from college"
+      ],
+      "responses": [
+        "There is well mannered library inside the college with good environment where we can get subject related as well as general knowledge books and we can lend upto 3 different books till vaild date"
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Is there canteen available?",
+        "Where can i get some quality foods?",
+        "Is there canteen facilities",
+        "Do southwestern have canteen?",
+        "Is canteen food is proper / tasty?",
+        "Do you have quality food item canteen?",
+        "What are the meal plan options?",
+        "How’s the food?"
+      ],
+      "responses": [
+        "There is well mannered and hygenice canteen inside the college with good environment and quality fresh food",
+        "Foods are available in reasonable price in southwestern canteen which are fresh and quality"
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "Is there transportation facilities available?",
+        "Is there college bus available?",
+        "Bus facilities?",
+        "Do southwestern have transportation?",
+        "when college bus leave from college",
+        "At what time college bus leave?",
+        "Is there bus facilties?"
+      ],
+      "responses": [
+        "No,College buses arenot available currently",
+        "There is no college bus facility"
+      ]
+    },
+    {
+      "tag": "counsel",
+      "patterns": [
+        "Does college conduct any carrer based counselling program?",
+        "What about counselling program?",
+        "counsel",
+        "Is there any counselling program from college?"
+      ],
+      "responses": [
+        "Yes, counselling programs are conducted from time to time. Experienced professionals in the respective fields are invited for their valuable suggestions and sharing their working experiences with the students."
+      ]
+    },
+    {
+      "tag": "practical",
+      "patterns": [
+        "How about pratical?",
+        "How students are involved in practical field of their respective courses?",
+        "Can you tell me about college pratical?"
+      ],
+      "responses": [
+        "College organizes different experiments at certain intervals for improving students practical skills in their fields. Students also get involved and participate in different competitions organized by various organizations of their respective fields.",
+        "Practical are organized at certain intervals according to their respective courses"
+      ]
+    },
+    {
+      "tag": "extraclass",
+      "patterns": [
+        "Can i get extra classes?",
+        "how about extra classes?",
+        "Is there extra class available?",
+        "Is there any facility of extra classes?"
+      ],
+      "responses": [
+        "Yes, it is possible to get extra classes if requested by a group of students",
+        "As per requirement of time and situation,extra classes are conducted"
+      ]
+    },
+    {
+      "tag": "meeting",
+      "patterns": [
+        "Is parent meeting conducted timely?",
+        "What about parent meeting?"
+        
+      ],
+      "responses": [
+        "Yes, it is conducted timely on the requirement basis."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Is there scholarship available?",
+        "Are there scholarship?",
+        "What student should do to get scholarship?",
+        "Does college provide any scholarship?",
+        "Does southwestern College offer scholarships?",
+        "What percentage of students receive grants and/or scholarships?"       
+      ],
+      "responses": [
+        "College provides scholarships to the top three students based on the previous year or semester results."
+      ]
+    },
+    {
+      "tag": "transfer",
+      "patterns": [
+        "What about transfer?",
+        "Can i get transferred or transfer from another college?" 
+      ],
+      "responses": [
+        "Yes, you can if you have the transfer certificate along with all other necessary documents from the college you are being transferred from. Without the necessary documents you cannot get the permission from the university and cannot get admitted to the college."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": [
+        "What about internship?",
+        "Does college provide any internship?",
+        "Is there any chances of internship from college?",
+        "What are the work-study opportunities?",
+        "Are there opportunities to build leadership skills on campus?",
+        "Does your school have a co-op program?",
+        "Are internships available?",
+        "Are there opportunities to build leadership skills on college?"
+      ],
+      "responses": [
+        "Yes, college provides internship programs for the students who are better at their respective fields",
+        "Yes, internship programs are available in college for students who excellence in their fields"
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "what is procedure for online payment?",
+        "Is there online payment?",
+        "Can we pay from online?"
+      ],
+      "responses": [
+        "Yes, you can pay through E-sewa or Khalti or even you can send payment bank vhoucher to college email"
+      ]
+    },
+    {
+      "tag": "email",
+      "patterns": [
+        "what is Email of college",
+        "Can i get email of college?"
+      ],
+      "responses": [
+        "info@southwestern.edu.np"
+      ]
+    },
+    {
+      "tag": "other",
+      "patterns": [
+        "what are OTHER FEATURES of southwestern college",
+        "Can i know OTHER FEATURES of southwestern college?"
+      ],
+      "responses": [
+        "Other features are : Mathema Learning Resource Centre(MLRC).  MLRC objective is to fill the gap between prescribed coursework and real-world requirements. In order to achieve this goal, southwestern offers students various value-added courses, workshops and training."
+      ]
+    },
+   {
+    "tag": "service",
+    "patterns": [
+      "What are services are provided by college?",
+      "Is there any services provided by college?",
+      "What advising and support services are available?"
+    ],
+    "responses": [
+      "Various Programs and Workshops are organized timely to motivate the students. Apart from this, councelling facility is provided to help the students to grab the right path",
+      "Different programs and workshops are held on a regular basis to keep pupils motivated. Aside from that, counseling is available to assist students in choosing the proper course"
+    ]
+  },
+  {
+    "tag": "admission",
+    "patterns": [
+      "How can i get admitted?",
+      "What are the procedure for admission?",
+      "Steps for admission"
+    ],
+    "responses": [
+      "Student must fill up entrance form and take the entrance exam conducted by Tribhuvan University. If student passes the entrance, he/she will be eligible for interview. After students are approved from interview ,then they can submit their admission fee in account section and submit other required documents in administration section",
+      "After entrance exam ,First you are called for interview. Within 2-3 days of interview you should submit admission fee based on availability of seats because the seats are filled by the procedure of First Come First Basis Admission",
+      "After entrance exam ,You will be called for an interview first. Within 2-3 days of the interview, you must submit an admission fee based on seat availability, as seats are filled on a first-come, first-served basis"
+    ]
+  },
+  {
+    "tag": "entrance",
+    "patterns": [
+      "entrance exam info please?",
+      "What are the procedure for giving entrance exam?",
+      "Steps for entrance exam",
+      "How easy or difficult is it to enroll in the courses you need?"
+    ],
+    "responses": [
+      "In order to start off Admission in southwestern College, first of all fill up the Entrance Exam Form and submit it along with the relevant documents & appear in Entrance Examination given by IOST"
+    ]
+  },
+  {
+    "tag": "curriculum",
+    "patterns": [
+      "Is there any extra curriculum activities?",
+      "Is there any sport event?",
+      "What extracurricular opportunities are available?",
+      "What extra curriculum activities are conducted by college?"
+    ],
+    "responses": [
+      "Indoor and outdoor games competitions,the is southwestern Sport Club which organized every curricuium activities"
+    ]
+  },
+  {
+    "tag": "uniform",
+    "patterns": [
+      "Is uniform complusory?",
+      "What about uniform?",
+      "Tell me about uniform"
+    ],
+    "responses": [
+      "Yes, it is compulsory to be in uniform for 2 years after that you can come in outdress."
+    ]
+  },
+  {
+    "tag": "form",
+    "patterns": [
+      "form",
+      "Can i get online form?",
+      "Do you have online form?"
+    ],
+    "responses": [
+      "No, sorry you have to visit Admission Counter for Application Form",
+      "Still in progress to make online form facilities "
+    ]
+  },
+  {
+    "tag": "requirement",
+    "patterns": [
+      "Who can we apply for studying in college?",
+      "what are the requirement for applying?",
+      "how can i join the bachleor?",
+      "What are the academic requirements to qualify for the honors college?"
+    ],
+    "responses": [
+      "Student should pass  Entrance Examination conducted by TU and must have completed I.Sc. or +2 (Science)  or equivalent with minimum 45% or 'C' grade in all subjects with minimum 2.00 GPA",
+      "Those who have completed +2 level in science and management can apply only after passing the entrance exam conducted by Tribhuvan  University",
+      "Those  who have passed the +2 level in science, can apply only after completing the TU admission exam"
+    ]
+  },
+  {
+    "tag": "field of course",
+    "patterns": [
+      "show me available courses",
+      "What courses are available right now?",
+      "Can i get course information?",
+      "which faculty do you teach?",
+      "What type of courses are available there?"
+    ],
+    "responses": [
+      "1. Bsc.CSIT 2. BBA 3. BBM 4.BCA 5.BIM 6.MBS 7.BBS "
+      ]
+  },
+  {
+    "tag": "attendance",
+    "patterns": [
+      "Why is it important to attend my college classes?",
+      "Is attendance is necessary?",
+      "Can't i study at home?"
+    ],
+    "responses": [
+      "Attendance is one of the important factor for your internal marks, apart from that learning from professors may increase your knowledge than learning by yourself. Also attending class is more beneficial than wasting your leisure time",
+      "Attendance is a crucial aspect in your internal grades, and studying from professors can help you get more knowledge than learning on your own. Attending class is also preferable to waste your free time"
+    ]
+  },
+  {
+    "tag": "best",
+    "patterns": [
+      "Why to choose southwestern?",
+      "Is southwestern College better than other IT college?",
+      "Give me reason to choose southwestern",
+      "why southwestern?"
+    ],
+    "responses": [
+      "Because it is dedicated to the country and people, with sound theoretical and practical knowledge, competence and skill.",
+      "Home for Quality higher education with an affordable fee ",
+      "Backed and guided by experienced professors and invites subject experts and lecturers",
+      "Regular classes, in-depth practical assignments, field studies, excursions and report writing and internal examinations which are recipes for the success of every student, are carefully managed."
+    ]
+  },
+  {
+    "tag": "comeback",
+    "patterns": [
+      "great!",
+      "i got it!",
+      "wow",
+      "awesome",
+      "hehe",
+      "Yes",
+      "it was good",
+      "it was excellent"
+    ],
+    "responses": [
+      "Yeah haha",
+      "Amazing isn't it? Place more query for more info"
+    ]
+  },
+  {
+    "tag": "csit coordinator",
+    "patterns": [
+      "Who is the coordinator of csit?",
+      "csit co-ordinator"
+    ],
+    "responses": [
+      "Respected Er.Rolisha Sthapit"
+    ]
+  },
+  {
+    "tag": "mlrc coordinator",
+    "patterns": [
+      "Who is the co-ordinator of mlrc?",
+      "mlrc co-ordinator"    
+    ],
+    "responses": [
+      "Respected Niraj Thapa Magar"
+    ]
+  },
+  {
+    "tag": "bba coordinator",
+    "patterns": [
+      "Who is the coordinator of BBA?",
+      "bba co-ordinator"
+    ],
+    "responses": [
+      "Respected Rupendra Gopali"
+    ]
+  },
+  {
+    "tag": "bbs coordinator",
+    "patterns": [
+      "Who is the co-ordinator of bbs?",
+      "coordinator BBS"
+    ],
+    "responses": [
+      "Respected Amit Sthapit"
+    ]
+  },
+  {
+    "tag": "bca coordinator",
+    "patterns": [
+      "Who is the coordinator of bca?",
+      "co_ordinator BCA" 
+    ],
+    "responses": [
+      "Respected Er. Rolisha Sthapit"
+    ]
+  },
+  {
+    "tag": "bim coordinator",
+    "patterns": [
+      "Who is the coordinator of bim?",
+      "BIM co-ordinator"
+    ],
+    "responses": [
+      "Respected Rupendra Gopali"
+    ]
+  },
+  {
+    "tag": "bbm coordinator",
+    "patterns": [
+      "Who is the coordinator of bbm?",
+      "BBM co-ordinator"
+    ],
+    "responses": [
+      "Respected Sushma Maharjan"
+    ]
+  },
+  {
+    "tag": "mbs coordinator",
+    "patterns": [
+      "Who is the coordinator of mbs?",
+      "MBS co-ordinator"
+    ],
+    "responses": [
+      "Respected Amit Sthapit"
+    ]
+  },
+  {
+    "tag": "FAQS",
+    "patterns": [
+      "what are frequently asked question?",
+      "FAQS"
+    ],
+    "responses": [
+      "\nFee structure,\ndifferent facililties,\nLocation,\nAbout college,\nScholarship"
+    ]
+  },
+  {
+    "tag": "internalmarks",
+    "patterns": [
+      "How internal marks are evaluated?",
+      "what is total internal marks?",
+      "Is there any marks for assignments?",
+      "is there Class Perfomance marks?"
+    ],
+    "responses": [
+      "Mainly internal marks is  20  it is evaluated on the basis of:1.Class Perfomance 2.Assignmnets 3.Attendance 4.Exam performance."
+    ]
+  },
+  {
+    "tag": "parking",
+    "patterns": [
+      "Can i take bike to college?",
+      "can i take my own transpotation to college?",
+      "Is there Praking area in college?",
+      "can i park there?",
+      "availability of bike parking?",
+      "is there parking facilities?"
+    ],
+    "responses": [
+      "Yes!There is enough space for parking",
+      "Parking is available there"
+    ]
+  },
+  {
+    "tag": "principal",
+    "patterns": [
+      "Can i know pricipal of college?",
+      "who is principal of college?",
+      "who is head of college?",
+      "What is name of principal?"
+    ],
+    "responses": [
+      "Respected N.P Sharma"
+    ]
+  },
+  {
+    "tag": "holiday",
+    "patterns": [
+      "when do student get holiday?",
+      "is there holiday in saturday?"
+    ],
+    "responses": [
+      "As saturday is holiday beside that, on the occassion of festival or any strike college will provide proper notice on college website and facebook pages"
+    ]
+  },
+  {
+    "tag": "teacher",
+    "patterns": [
+      "Is there quality good teacher in southwestern?",
+      "What is nature of teacher in southwestern?",
+      "Are teacher qualified and friendly?",
+      "What type of teacher are there?",
+      "What tutoring services do you have?",
+      "Are professors available for research with students?"
+    ],
+    "responses": [
+      "There is no doubt on quality nature of teacher",
+      "All teacher are well qaulified and expereinced in this field with extra knowledge too",
+      "Teacher are very friendly in nature and really supportive which enhance the student knowledge and skill proportionally",
+      "Qualified and friendly Professors are available for research with students"
+    ]
+  },
+  {
+    "tag": "mobile",
+    "patterns": [
+      "Can we use mobile in southwestern College?",
+      "can we use electronic device during classes?",
+      "Can we make a call during classes?"
+    ],
+    "responses": [
+      "You can use mobile in college as well as electronic devices can be use during classes",
+      "If there is permission from teacher then you can use it for emergency or study purposes"
+    ]
+  },
+  {
+    "tag": "lab",
+    "patterns": [
+      "Is there lab facilties?",
+      "when lab are conducted?",
+      "do we have to make lab report?",
+      "Is lab report complusory?"
+    ],
+    "responses": [
+      "Lab report are complusory so lab are coducted as per schedule"
+    ]
+  },
+  {
+    "tag": "labexam",
+    "patterns": [
+      "Is there lab exam?",
+      "when lab exam are conducted?",
+      "Is lab exam compulsory?"
+    ],
+    "responses": [
+      "Lab exam are conducted on the basis of board exam routine and  teacher information",
+      "Lab  exam are complusory so lab exam are coducted on the basis of board exam routine."
+    ]
+  },
+  {
+    "tag": "tour",
+    "patterns": [
+      "Does college organize tour?",
+      "do college take tour?",
+      "What about tour from college",
+      "do college take picnic?",
+      "Does college organize Picnic?"
+    ],
+    "responses": [
+      "College take tour as per department and management team meeting information where picnic is exceptional case",
+      "Educational tour is conducted by college where picnic is exceptional case"
+    ]
+  },
+  {
+    "tag": "rules",
+    "patterns": [
+      "What are basic rule of college?",
+      "is there rules in college?",
+      "Do khec have rules?",
+      "what type of rules for boys and girls",
+      "Can we color our hair?",
+      "is there rules for haircut?",
+      "Can we wear ornaments?"
+    ],
+    "responses": [
+      "The most fundamental rules of college:1.Student should be punctual about college time,exam time,pratical time,assingment submission 2.Properly dress 3.listen to teacher advice  4.attentive in class 5.be polite and humble 6.discipline key 7.Care college property"
+    ]
+  },
+  {
+    "tag": "assesment",
+    "patterns": [
+      "What type of semester exam are conducted by college?",
+      "what is exam pattern of college?",
+      "Do southwestern College take semester exams?",
+      "What type of exam are taken by college?"
+    ],
+    "responses": [
+      "Two internal exam are taken by college which are termed as 1.first assesment 2.Second assesment for each semester"
+    ]
+  },
+  {
+    "tag": "dress",
+    "patterns": [
+      "Does college provide dress?",
+      "Do college provide dress?",
+      "What is dress code of college"
+    ],
+    "responses": [
+      "Dress are provide by college where you have to college dress for 2years and for rest 2years you can come with outdress ",
+      "The dress code for college is blue shirt,black pant,blue sweater and black coat for 2years and rest 2years you can come with outdress."
+    ]
+  },
+  {
+    "tag": "competition",
+    "patterns": [
+      "Does college conduct competition?",
+      "Do college organized inter college competition",
+      "What type of competition organzied by college?",
+      "Are sports popular?"
+    ],
+    "responses": [
+      "College conduct different internal as well as inter college competition timely",
+      "Different Comptetion are conducted along which certificate are provided"
+    ]
+  },
+  {
+    "tag": "compound",
+    "patterns": [
+      "Does college have good compound and environment?",
+      "is there enough area to rest?",
+      "Is there garden in college",
+      "is there enough compund to conduct internal pratical",
+      "is there enough area to play?"
+    ],
+    "responses": [
+      "College compound is preety big and enough to rest or perform internal pratical as well as for playing games",
+      "No doubt on that! You will be preety amazed if you visit here"
+    ]
+  },
+  {
+    "tag": "strict",
+    "patterns": [
+      "How much strict is college",
+      "do they have strict rules"
+    ],
+    "responses": [
+      "If you are punctual and discipline, the rules won't be strict for you",
+      "Rules are good for every people to maintain the path so yes there is some strict rules"
+    ]
+  },
+  {
+    "tag": "project",
+    "patterns": [
+      "Do college organize project for student?",
+      "Is there project in college?",
+      "What type of project are conducted by college?",
+      "do we need to do project every semester?"
+    ],
+    "responses": [
+      "Project are performed according to academic programme that you had selected and according to syallbus you have to do project",
+      "According to syllabus project are assigned to students"
+    ]
+  },
+  {
+    "tag": "farewell",
+    "patterns": [
+      "Do college organize welcome and farewel programs for student?",
+      "What type of welcome and farewel programs are conducted by college?",
+      "do college do farewell to student?"
+    ],
+    "responses": [
+      "Welcome and farewell program are conducted by respective departments as per their decision"
+    ]
+  },
+  {
+    "tag": "orientation",
+    "patterns": [
+      "Do you have an orientation program for fresher students?"
+    ],
+    "responses": [
+      "Ofcourse there is orientation program for fresher students"
+    ]
+  },
+  {
+    "tag": "facilities",
+    "patterns": [
+      "what type of facilities are provided by southwestern college?",
+      "tell me about southwestern College facilties",
+      "do college provide other facilities?",
+      "do college provide well furnished classroom?",
+      "How big are your classes?"
+    ],
+    "responses": [
+      "Some facilities are like: 1.quality canteen 2.well furnished big enough classroom  3.libarary 4.Parking 5.playground 6.well advanced technology lab room 7.well sanitized AC/Fan facilites 8.hygenice restroom 9.quality and fresh environment and many more"
+    ]
+  },
+  {
+    "tag": "jobs",
+    "patterns": [
+      "what type of jobs are provided by southwestern college?",
+      "do college provide job?"
+      ],
+    "responses": [
+      "If your qualification meets with the requiremnt for job and internships then college provide the job or internships ",
+      "College provide job and internships if you have adequate qualification"
+    ]
+  },
+  {
+    "tag": "rating",
+    "patterns": [
+      "what is performance of southwestern college?",
+      "Is there quality education  in southwestern college?",
+      "How would rate khec college?",
+      "Out of 10 how much would you rate southwestern college in terms of education?",
+      "What are your college's strengths?"
+    ],
+    "responses": [
+      "About education no any question mark",
+      "Outstanding performace with Outstanding outcome of southwestern college in terms of education and facilities"
+    ]
+  },
+  {
+    "tag": "not qualified",
+    "patterns": [
+      "In what condtion student get NQ?",
+      "what are the condition to get NQ?",
+      "How to remove NQ?",
+      "When stduent get NQ?"
+    ],
+    "responses": [
+      "If the student donot perform well in internal exam and donot attend class regularly then he/she is eligible to get NQ on that subject so to remove it, you should attend class regularly and perform well in internal exam and pratical "
+    ]
+  },
+  {
+    "tag": "back exam",
+    "patterns": [
+      "what are the ways to give back exam?",
+      "what we should do to give back exam?",
+      "how can we give back exam?"
+    ],
+    "responses": [
+      "First of all you have to fill back exam form with each suject charge(more subject more charge) and submit the backexam fee to account section and after verfication from account section submit to exam section"
+    ]
+  },
+  {
+    "tag": "regular exam",
+    "patterns": [
+      "what are the ways to give regular exam?",
+      "what we should do to give regular exam?",
+      "how can we give regular exam?"
+    ],
+    "responses": [
+      "First of all you have to fill exam form and clear the due till date to account section and after verfication from account section submit to exam section"
+    ]
+  },
+  {
+    "tag": "equality",
+    "patterns": [
+      "Do college treated badly to poor student?",
+      "how college treat the weak and poor student?",
+      "how college treat me if i am covid infected?",
+      "i am weak at study,Am i capabale to study at southwestern?",
+      "What makes this college special?",
+      "What is this college proud of?",
+      "i am poor student,can i enroll there?"
+    ],
+    "responses": [
+      "No matter from what background you are,what nature you belong to,and what you suffered from southwestern always treat the same as we treat to each and every student and there is no chance to make you feel down",
+      "We are here to uplift you, not to degarade you so no any parameter of your background effect the vision of southwestern towards you"
+    ]
+  },
+  {
+    "tag": "discount",
+    "patterns": [
+      "Do college give discount to poor student?",
+      "how can i get discount in college fees?",
+      "is there any discount?"
+    ],
+    "responses": [
+     "There is no such discount provision from college but college provide different scholarship to the student if you top that semester"
+    ]
+  },
+  {
+    "tag": "assesmentresult",
+    "patterns": [
+      "When do college publish the result of assesment?",
+      "how long it take to publish assesment result?",
+      "When assesment result get published?",
+      "assesment result please",
+      "What about assesment result?"
+    ],
+    "responses": [
+     "If everything goes well,Assesment result are usually published with a week or maximum within 15 days"
+    ]
+  },
+  {
+    "tag": "against",
+    "patterns": [
+     "bastard",
+     "Go to the hell",
+     "southwestern College is worst college",
+     "i hate khec",
+     "Don't study in southwestern College",
+     "Most strict college",
+     "hatest college"
+    ],
+    "responses": [
+     "Please feel free to reach out to us with any further comments, concerns, or suggestions you wish to share. We would love to make things right if you give us another chance"
+    ]
+  },
+  {
+    "tag": "semester",
+    "patterns": [
+      "Is the college on a semester, trimester or quarter system?",
+      "What is study period sequence?"
+    ],
+    "responses": [
+     "It's semester wise system"
+    ]
+  },
+  {
+    "tag": "wifi",
+    "patterns": [
+      "How is the WiFi on college?",
+      "do college provide internet?",
+      "Is there wifi or internet in college"
+    ],
+    "responses": [
+     "college provide internet facilties."
+    ]
+  },
+  {
+    "tag": "studentnature",
+    "patterns": [
+      "Are the students here friendly?",
+      "What type of student are here?",
+      "Is there diversity on campus?",
+      "Do students of different races and classes interact easily?",
+      "How would you describe your fellow students?",
+      "What makes the student body unique?"
+    ],
+    "responses": [
+     "Even though every student belongs from different district,Students are very friendly and respecting nature where collaborative work or group presentations are performed toghther"
+    ]
+  },
+  {
+    "tag": "compare",
+    "patterns": [
+      "What departments or programs have the best reputations?",
+      "Which department or area is best among all?",
+      "is CSIT is better than BCA?",
+      "which subject is best?"
+    ],
+    "responses": [
+     "All the department are like finger of same hand which have equal importance in their own place"
+    ]
+  },
+  {
+    "tag": "presentation",
+    "patterns": [
+      "How often are collaborative work or group presentations required?",
+      "does college provide group work?",
+      "do we have to do presentation?"
+    ],
+    "responses": [
+     "collaborative work or group presentations are inseprateable things along study courses"
+    ]
+  },
+  {
+    "tag": "traningfee",
+    "patterns": [
+      "what is the fee of autocad and sap traning?",
+      "does college provide different tranings with fee?",
+      "do college take charge/fee for tranings?"
+    ],
+    "responses": [
+     "Training fee are addressed during the time of training"
+    ]
+  },
+  {
+    "tag": "training",
+    "patterns": [
+      "For the training classes will the library computer be operated?",
+      "do college provide extra tranings?",
+      "What are the extra tranings provide by college?",
+      "Is there extra tranings?"
+    ],
+    "responses": [
+     "There is MLRC(Mathema Learning Resource Center) which provide different training as well as there is southwestern IT club for providing IT related training "
+    ]
+  },
+  {
+    "tag": "examroutine",
+    "patterns": [
+      "Exam routine for 1st/first semester",
+      "Exam routine for 2nd/second semester",
+      "Exam routine for 3rd/third semester",
+      "Exam routine for 4th/fourth semester",
+      "Exam routine for 5th/fifth semester",
+      "Exam routine for 6th/sixth semester",
+      "Exam routine for 7th/seventh semester",
+      "Exam routine for 8th/eight semester"
+
+    ],
+    "responses": [
+     "Please visit website for detail exam routine and best of luck for exam"
+    ]
+  },
+  {
+    "tag": "method",
+    "patterns": [
+      "Are your classes lecture-based or discussion-based?",
+      "what are the classes based on?",
+      "in what way the teacher teach to student?"
+    ],
+    "responses": [
+     "As per need of time and study course we can go through any based that may be lecture,pratical,field visit,discussion or visual which help the student"
+    ]
+  },
+  {
+    "tag": "loan",
+    "patterns": [
+      "do college provide study loan to economically poor students?",
+      "Is there loan system or provision?"
+    ],
+    "responses": [
+     "Sorry to say but there is no such system but we are working on that for betterment for economically poor student and hope we will be on it asap"
+    ]
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What is college time?",
+      "what time college or class started?",
+      "What time college gate is closed?",
+      "what is starting time of college?",
+      "when college time get finish?",
+      "what time college get over?"
+
+    ],
+    "responses": [
+     "College gate close and class get started at 6:30 am ."
+    ]
+  },
+  {
+    "tag": "due",
+    "patterns": [
+      "update my due amounts",
+      "How can i know about my due amount",
+      "how much money should i pay?"
+
+    ],
+    "responses": [
+     "Please  concerned to account section"
+    ]
+  },
+  {
+      "tag": "club",
+      "patterns": [
+        "Are there any clubs",
+        "how many Clubs are there?"
+      ],
+      "responses": [
+       "There are five clubs they are 1) southwestern IT clubs 2)southwestern Entrepreneurial Management Club(EMC) 3)southwestern Sports Clubs 4)southwestern Chapter 25 5) southwestern Cultural Club"
+      ]
+  },
+  {
+      "tag":"vision",
+      "patterns":[
+        "Vision of southwestern college?",
+        "what is the Vision of southwestern college?",
+        "Vision?"
+      ],
+      "response":[
+        "southwestern College will be high-standard institute for learning,which Provides Sstudents with an interface to world-class educational methods and facilities."
+      ]
+  },
+  {
+      "tag":"mission",
+      "patterns":[
+        "Mission of southwestern college?",
+        "what is the mission of southwestern college?",
+        "mission?"
+      ],
+      "response":[
+        "southwestern College believes that success of the graduate in real life situation is of utmost importance.southwestern College students are intentional Learners.The college will produce globally competent and socially responsible quality gradutes,who will be successful either as entrepreneurs or in the job markets of Nepal and abroad."
+      ]
+  },    
+  {
+        "tag":"mlrc",
+        "patterns":[
+          "what is MLRC?",
+          "Full Form of MLRC",
+          "MLRC?"
+        ],
+        "response":[
+          "Mathema Learning Resource Center.Furthermore, please visit college website  https://www.southwestern.edu.np/"
+        ]
+  }
+  ]
+}
